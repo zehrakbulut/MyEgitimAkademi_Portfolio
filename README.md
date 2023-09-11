@@ -10,7 +10,7 @@ Asp.Net MVC ile dinamik web projesi , admin panel ile birlikte bilgileri kolayca
 
 
 
-Technologies
+# Technologies
 
 . Asp.Net MVC
 . DbFirst
@@ -19,7 +19,7 @@ Technologies
 
 
 
-Using
+# Using
 
 . Giriş yapmak için "/Login/Index" sayfasına gidilir.
 . Eğer bir hesap yok ise "/Register/Index" sayfasından kayıt oluşturulur.
