@@ -1,0 +1,28 @@
+﻿@model List<MyEgitimAkademi_Portfolio.Models.Education>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Eğitim Hayatım</h2>
+
+   <table class="table table-bordered">
+       <tr>
+           <th>#</th>
+           <th>Eğitim Adı</th>
+           <th>Eğitmen Adı</th>
+           <th>Sil</th>
+           <th>Güncelle</th>
+       </tr>
+       @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.EducationID</td>
+                    <td>@item.EducationName</td>
+                    <td>@item.EducationTeacherName</td>
+                    <td><a href="/Education/DeleteEducation/@item.EducationID" class="btn btn-outline-danger">Sil</a></td>
+                    <td><a href="/Education/UpdateEducation/@item.EducationID" class="btn btn-outline-success">Güncelle</a></td>
+                </tr>
+            }
+   </table>
+<a href="/Education/AddEducation/" class="btn btn-outline-primary">Yeni Eğitim Girişi</a>

@@ -1,0 +1,33 @@
+﻿@model List<MyEgitimAkademi_Portfolio.Models.Statistic>
+@foreach (var item in Model)
+{
+<div class="reward-list mt-5">
+    <div class="reward-item">
+        <div class="reward-item-photo">
+           @item.Counts1
+        </div>
+        <div class="reward-item-detail">
+            <span class="reward-item-title">@item.Title1</span>
+            <p class="reward-item-descr">@item.Description1</p>
+        </div>
+    </div>
+    <div class="reward-item">
+        <div class="reward-item-photo">
+            @item.Counts2%
+        </div>
+        <div class="reward-item-detail">
+            <span class="reward-item-title">@item.Title2</span>
+            <p class="reward-item-descr">@item.Description2</p>
+        </div>
+    </div>
+    <div class="reward-item">
+        <div class="reward-item-photo">
+            @item.Counts3+
+        </div>
+        <div class="reward-item-detail">
+            <span class="reward-item-title">@item.Title3</span>
+            <p class="reward-item-descr">@item.Description3</p>
+        </div>
+    </div>
+</div>
+}
