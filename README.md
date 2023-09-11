@@ -4,7 +4,7 @@
 
 https://github.com/zehrakbulut/MyEgitimAkademi_Portfolio/assets/103004228/6bf39937-31b1-4a68-bbdb-10b10a9b872c
 
-Description
+# Description
 
 Asp.Net MVC ile dinamik web projesi , admin panel ile birlikte bilgileri kolayca düzenleyebilirsiniz. Bilgileri düzenlemek için öncelikle "Login" işlemini yapmanız gerekir. Eğer bir hesabınız yok ise "Register" işlemi ile sisteme kayıt olup giriş yapabilirsiniz.
 
