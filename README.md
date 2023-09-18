@@ -16,6 +16,12 @@ Asp.Net MVC ile dinamik web projesi , admin panel ile birlikte bilgileri kolayca
 - DbFirst
 - Entity Framework
 - MSSQL
+- Entity Framework
+- Relationship
+- Html-Css-Bootstrap
+- Orm
+- Authentication
+
 
 
 
